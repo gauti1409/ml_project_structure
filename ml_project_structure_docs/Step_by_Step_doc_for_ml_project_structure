@@ -1,0 +1,17 @@
+## DOCUMENTATION FOR ML PROJECT STRUCTURE
+
+**ENVIRONMENT SETUP / GITHUB SETUP/ SETUP.PY**
+1. Create a new github repo
+2. Create a new folder with the same name as github repo. For reference, we are using it as ml_project_structure.
+3. Within ml_project_structure folder, create a new environemnt with the command: **conda create -p venv python==3.8 -y**
+4. $ conda activate E:\Personal_Documents\Big_Data_Syllabus\Projects_For_Skill_Development\Real_Time_ML_Projects\ml_project_structure\venv
+5. Sync your Code repo folder in the machine with your github repo. Once the virtual environment is created, create a new github repo and then perform the mentioned in the 
+github repo, as soon as after it is created.
+6. **git remote -v** : command use to check the project origin in Github for fetch and push.
+7.  Create a .gitignore file in Github and then do a git pull. Use command: **git pull**.
+8. Create two files: **setup.py and requirements.txt**. The setup.py will be responsible for creating my ML application as a package and that package can be installed in other
+projects by reusing it. So, with the help of setup.py I will be able to build my entire ML app as a package and even deploy in PyPi. 
+And from there anybody can do the installation and anybody can use it.
+9. Create the src folder and then build the package. - See video 1 youtube video. 
+10. Use the command below to install the ipykernel in your environment:
+**conda install -p E:\Personal_Documents\Big_Data_Syllabus\Projects_For_Skill_Development\Real_Time_ML_Projects\ml_project_structure\venv ipykernel --update-deps --force-reinstall**
