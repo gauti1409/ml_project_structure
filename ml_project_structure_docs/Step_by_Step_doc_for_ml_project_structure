@@ -15,3 +15,4 @@ And from there anybody can do the installation and anybody can use it.
 9. Create the src folder and then build the package. - See video 1 youtube video. 
 10. Use the command below to install the ipykernel in your environment:
 **conda install -p E:\Personal_Documents\Big_Data_Syllabus\Projects_For_Skill_Development\Real_Time_ML_Projects\ml_project_structure\venv ipykernel --update-deps --force-reinstall**
+11. Try running the files in src folder using command : **python -m src.components.data_ingestion**
